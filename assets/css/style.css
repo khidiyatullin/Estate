@@ -8,26 +8,29 @@
     margin: 0;
     font-family:'Poppins', sans-serif;
     color: #45525B;
+    scroll-behavior: smooth;
 }
 *{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 .header{
 padding: 15px 0;
+background-color: #ffff;
 }
 .container{
-width: 100%;
-max-width: 1140px;
-margin: 0 auto;
+    margin: 0 auto;
+    width: 1440px;
 }
-.header_iner{
+.header_wrapper{
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 .nav{
 display: flex;
-flex-direction: column;
+font-family: poppins;
 font-size: 15px;
 font-weight: 400;
 }
@@ -36,8 +39,8 @@ margin-left: 30px;
 color:#444444;
 text-decoration: none;
 }
-.nav_link hover{
-opacity: 1;
+.nav_link:hover{
+opacity: 0.5;
 text-decoration: underline;
 }
 
@@ -47,4 +50,637 @@ text-decoration: underline;
     justify-content: space-between;
     flex-direction: column;
     padding-top: 30px;
+}
+.section1{
+margin-top: 5px;
+background: url("../img/main.png") no-repeat center center / cover;
+height: 900px;
+}
+.section_wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.img{
+height: 103px;
+width: 128px;
+padding: 315px 0 60px 0;
+font-family: poppins;
+font-size: 32px;
+line-height: 45px;
+width: 525px;
+}
+.strela{
+margin-top: 150px;
+}
+/*sectio2*/
+.Sec2Div{
+    width: 1440px;
+    height: 486px;
+    display: flex;
+    padding: 100px 151px 0 136px;
+}
+h1{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    width: 444px;
+    color: #45525B;
+    margin-right: 148px;
+}
+.LeftDivSec2 p{
+    color: #ff8a63;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.AvaOrnSec2{
+    display: flex;
+}
+.Sec2MainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 287px;
+}
+.Sec2MainText p{
+    font-family: poppins;
+    font-size: 16px;
+}
+.LeftDivSec2{
+    margin-top: 55px;
+}
+#ManagingBroker{
+    letter-spacing: 2px;
+    font-family: poppins;
+    font-size: 12px;
+    color: #6F7278;
+    text-transform: uppercase;
+}
+#AvaOrnText{
+    font-family: poppins;
+    font-size: 16px;
+    color: #45525B;
+}
+.AvaOrnSec2 div{
+    margin: 20px 0 0 8px;
+}
+/* -------------------------- Section 3 -------------------------- */
+.Sec3Div{
+    height: 931px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.Sec3Div .SpanNew{
+    align-self: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Sec3Div .SpanNew h2{
+    color: #45525B;
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 400;
+}
+.LoremSec3{
+    width: 505px;
+    color:#6F7278;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 13px;
+}
+.RequirementsSec3{
+    color: #ff8a63;
+    font-family: poppins;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.MainThingSec3{
+    align-self: center;
+    display: flex;
+}
+.DivsContainerSec3 div{
+    width: 300px;
+    height: 169px;
+    padding: 21px 60px 0 21px;
+}
+.Sec3LeftImg{
+    margin-right: 32px;
+}
+.DivsContainerSec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      
+}
+.FirstDivSec3:hover{
+    border-radius: 10px;
+    background-color: #fafafc;
+    border: 1px solid #caccd1; 
+}
+.FirstDivSec3{
+    border: 1px solid transparent;
+}
+.DivsContainerSec3 img{
+    background-color: #45525B;
+    padding: 12px;
+}
+.SecondTextSec3{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6F7278;
+}
+.FirstTextSec3{
+    font-family: poppins;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #45525B;
+}
+/* -------------------------- Section 4 -------------------------- */
+.Sec4Div{
+    height: 600px;
+    background: url("../img/backGr.png") no-repeat center center / cover;
+    padding: 230px 105px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Sec4Div:hover{
+    background-image: url(../img/BackgroundHouseOpacity.png);
+}
+.Sec4Div:hover a{
+    visibility: visible;
+}
+.Sec4Div:hover p{
+    visibility: visible;
+}
+.Sec4Div p{
+    visibility: hidden;
+}
+.Sec4Div a{
+    display: flex;
+    width: 112px;
+    height: 21px;
+    justify-content: space-between;
+    color:#45525B;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    visibility: hidden;
+}
+.Sec4Div a img{
+    width: 20px;
+    height: 11px;
+    margin-top: 6px;
+}
+.NullaSec4{
+    width: 255px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #292c32;
+    margin: 10px 0 9px 0; 
+}
+.LambourneRoad{
+    letter-spacing: 2px;
+    color: #45525B;
+    font-family: poppins;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* -------------------------- Section 5 -------------------------- */
+.Sec5Div{
+    height: 1204px;
+    background-color: #fafafc;
+    padding: 100px 136px 0 136px;
+    display: flex;
+    flex-direction: column;
+}
+.Sec5Div h2{
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 400;
+    color: #45525B;
+}
+.MorbiSec5{
+    width: 574px;
+    line-height: 22px;
+    font-family: poppins;
+    font-size: 18px;
+    color: #6F7278;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.currentListings{
+    color: #ff8a63;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+}
+.UnderHouse{
+    display: flex;
+}
+.UnderHouse img{
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 30px;
+}
+.UnderHouse p{
+    font-family: poppins;
+    font-size: 12px;
+    color: #45525B;
+    font-weight: 400;
+}
+.SecondRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.firstRow div{
+    text-align: center;
+}
+.SecondRow div{
+    text-align: center;
+}
+.Sec5Div h4{
+    margin-bottom: 10px;
+    color: #45525B;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+.HouseType{
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6F7278;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.Card{
+    border-radius: 8px;
+    background-color: white;
+    width: 379px;
+    height: 385px;
+}
+.Card:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+}
+.PhotoOfTheHouse{
+    width: auto;
+    height: 267px;
+}
+.ShowAllListings{
+    display: flex;
+    align-self: center;
+    margin-top: 26px;
+}
+.ShowAllListings p{
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    color: #45525B;
+    margin-right: 12px;
+}
+.ShowAllListings a{
+    display: flex;
+    align-self: center;
+}
+/* -------------------------- Section 6 -------------------------- */
+.Sec6Div{
+    height: 484px;
+    background-color: white;
+    display: flex;
+    padding: 100px 136px 0 136px; 
+}
+.OurPeople{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff8a63;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.Sec6Div h2{
+    line-height: 43px;
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 400;
+    color: #45525B;
+    width: 309px;
+}
+.MorbiSec6{
+    width: 368px;
+    color: #6F7278;
+    line-height: 22px;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 11px;
+}
+.Sec6Div a{
+    color: #45525B;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 20px;
+}
+.Sec6Div a p{
+    margin-right: 4px;
+}
+.agentsInfo{
+    margin: 0 16px 16px 0;
+    width: 360px;
+    display: flex;
+}
+.agentsInfo div{
+    padding: 20px 0 0 8px;
+}
+.Sec6DivOurPeople{
+    margin-right: 64px;
+}
+.ManagingBroker{
+    letter-spacing: 2px;
+    font-family: poppins;
+    font-size: 12px;
+    color: #6F7278;
+    text-transform: uppercase;
+}
+.AvaOrnText{
+    font-family: poppins;
+    font-size: 16px;
+    color: #45525B;
+}
+/* -------------------------- Section 7 -------------------------- */
+.Sec7Div{
+    height: 688px;
+    background-color: #fafafc;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 136px 0 136px;
+}
+.Sec7Div .TopText{
+    color: #ff8a63;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-self: center;
+}
+.Sec7Div h2{
+    color: #45525b;
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 400;
+    align-self: center;
+    margin-bottom: 23px;
+}
+.NewsRoomArrow{
+    display: flex;
+    color: #45525B;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    align-self: center;
+}
+.NewsRoomArrow p{
+    margin-right: 4px;
+}
+.Sec7DivCards{
+    display: flex;
+    justify-content: space-between;
+}
+.Sec7DivCard{
+    width: 376px;
+    height: 364px;
+    background-color: white;
+}
+.Sec7DivCard img{
+    background-color: #45525B;
+}
+.Sec7DivCard:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+}
+#Picture2nd{
+    background-color: white;
+}
+.Sec7Div h6{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #45525B;
+    line-height: 19px;
+    height: 39px;
+    margin: 8px 0 10px 30px;
+}
+.TitleSec7{
+    letter-spacing: 2px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color:#ff8a63;
+    text-transform: uppercase;
+    margin: 28px 0 0 30px;
+}
+.DateSec7{
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6F7278;
+    margin-left: 30px;
+}
+/* -------------------------- Section 8 -------------------------- */
+.Sec8Div{
+    height: 399px;
+    background-color: #45525B;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.Sec8Div a{
+    font-family: poppins;
+    padding: 10px 18px 11px 18px;
+    background-color: white;
+    color: #45525B;
+    border-radius: 6px; 
+}
+.Sec8Div div{
+    align-self: center;
+}
+.ButtonContact{
+    margin-right: 20px;
+}
+.Sec8Div p{
+    align-self: center;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.SeenEnougnQuestion{
+    font-family: poppins;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.MorbiSec8{
+    font-family: poppins;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.Sec8Div h2{
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+/* -------------------------- Footer -------------------------- */
+footer{
+    height: 563px;
+    background-color: #292c32;
+    padding: 100px 136px 0 136px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.LogoFooter{
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul li{
+    list-style-type: none;
+    margin-top: 9px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer div{
+    display: flex;
+}
+footer a{
+    color: white;
+}
+.footer_wrapper{
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+}
+footer ul .NameLiFooter{
+    color: #ff8a63;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.firstUlFooter{
+    margin-right: 132px;
+}
+.SecondUlFooter{
+    margin-right: 150px;
+}
+.FooterDiv{
+    margin-top: 76px;
+}
+.LastUlFooter{
+    margin-right: 139px;
+}
+.InputFooter{
+    padding-left: 5px;
+    color: #6F7278;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    width: 458px;
+    height: 53px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+input::-webkit-input-placeholder{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F7278;
+    padding-left: 34px;
+}
+.Subscription{
+    display: flex;
+    flex-direction: column;
+}
+.newsletterText{
+    color: #ff8a63;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+.SubscriptionText{
+    color: #fafafc;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 450px;
+}
+.InputEmail a{
+    font-family: poppins;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #3a4443;
+    width: 73px;
+    height: 39px;
+    margin: 7px 0 0 -80px;
+}
+.UnderUlAndInput{
+    font-family:poppins ;
+    margin-top: 26px;
+    
+    display: flex;
+    color: white;
+}
+.UnderUlAndInput img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+.UnderUlAndInput img:hover{
+    transform: scale(1.2);
+}
+.UnderUlAndInput div{
+    display: flex;
+    margin-left: 553px;
+}
+.footer_content{
+    display: grid;
 }
